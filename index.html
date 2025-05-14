@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevador Galáctico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Elevador Galáctico</h1>
+        <p class="description">Conserte o registro de viagens desordenado do elevador espacial!</p>
+        
+        <div class="input-group">
+            <label for="floors-input">Andares visitados (separados por vírgula):</label>
+            <input type="text" id="floors-input" placeholder="Ex: 5, 2, 8, 1, 3">
+        </div>
+        
+        <div class="button-group">
+            <button id="sort-button" style="--clr:#00ffee"><span>CONSERTAR</span><i></i></button>
+            <button id="reset-button" style="--clr:#ff0043"><span>RETORNAR</span><i></i></button>
+        </div>
+        
+        <div class="result-container">
+            <h2>Resultado:</h2>
+            <div id="result" class="result-box"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
